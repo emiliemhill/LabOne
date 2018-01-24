@@ -1,0 +1,90 @@
+body {
+    background-color: #f9fafc;
+}
+header {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+
+.topnav {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    justify-content: space-between;
+    margin-left: 70%;
+    
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+    
+}
+#hireus {
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+a :active {
+    text-decoration: underline;
+}
+h1 {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    color: #69696a;
+    border-left: 2px solid #69696a;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0;
+
+}
+.bubbles {
+    width: 50%;
+    position: relative;
+    clear: both;
+
+}
+#pink {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+}
+#purple {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 136, 1670, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#orange {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(247, 193 ,162, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 175px;
+
+}
+
