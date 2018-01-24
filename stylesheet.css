@@ -13,7 +13,7 @@ header {
     justify-content: flex-end;
     padding: 10px;
     justify-content: space-between;
-    margin-left: 70%;
+    margin-left: 60%;
     
 }
 
@@ -57,7 +57,6 @@ p {
 .bubbles {
     width: 50%;
     position: relative;
-    clear: both;
 
 }
 #pink {
@@ -85,6 +84,16 @@ p {
     position: absolute;
     margin-left: 350px;
     margin-top: 175px;
-
 }
+#scrolldown {
+    color: white;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    clear: both;
+    display: flex;
+    border-radius: 100px;
+    padding: 5px;
+    justify-content: center;
+}
+
 
